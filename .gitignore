@@ -1,0 +1,38 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore virtual environments (optional if using venv)
+.venv/
+venv/
+
+# Ignore environment variables file
+.env
+
+# Ignore logs and dumps
+*.log
+*.out
+*.pid
+
+# Ignore editor/IDE settings
+.vscode/
+.idea/
+
+# Ignore OS junk files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore node_modules (for frontend if using Node.js)
+node_modules/
+
+# Ignore temporary files
+*.swp
+*.swo
